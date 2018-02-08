@@ -30,6 +30,12 @@
             {% endif %}
         {% endif %}
 
+        {% if site.myblog == true %}
+            <li class="item">
+                <a class="link" href="{% if site.blog-external %}{{ site.blog-url }}{% else %}{{ site.url }}/{{ site.blog-url }}{% endif %}">Blog</a>
+            </li>
+        {% endif %}
+
         {% if site.resume == true %}
             <li class="item">
                 <a class="link" href="{% if site.resume-external %}{{ site.resume-url }}{% else %}{{ site.url }}/{{ site.resume-url }}{% endif %}">Résumé</a>

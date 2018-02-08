@@ -16,6 +16,10 @@ resume: true
 resume-external: true
 resume-url: https://google.com/?q=my+resume
 
+myblog: true
+blog-external: true
+blog-url: https://aniketgawade.github.io/blog
+
 url: https://aniketgawade.github.io/
 # your url: http://USERNAME.github.io
 
@@ -80,7 +84,7 @@ projects: true
 
 # if you don't need "about" or "blog", comment them out below
 about: true
-blog: true
+#blog: true
 
 # do you want to show the "read time" of the posts?
 read-time: true
